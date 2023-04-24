@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENJYO Shindan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="choose_box">
+        <!-- 質問 -->
+        <div class="app-theme">
+            <p>炎上診断(全5問)</p>
+        </div>
+        <!-- 質問1 -->
+        <div id="q_01" class="fit">
+            <p>質問1: TwitterやInstagramなど同じSNSのアカウントを複数持っている</p>
+            <ul>
+                <li><a class="btn" href="#q_02" data-value="a">YES</a></li>
+                <li><a class="btn" href="#q_02" data-value="b">NO</a></li>
+            </ul>
+        </div>
+
+        <!-- 質問2 -->
+        <div id="q_02" style="display: none;">
+            <p>質問2:政治や宗教、ジェンダーなど、センシティブな話題について発言することがある</p>
+            <ul>
+                <li><a class="btn" href="#q_03" data-value="a">YES</a></li>
+                <li><a class="btn" href="#q_03" data-value="b">NO</a></li>
+            </ul>
+        </div>
+
+        <!-- 質問3 -->
+        <div id="q_03" style="display: none;">
+            <p>質問3:情報発信だけでなく商品やサービスなどを提供している</p>
+            <ul>
+                <li><a class="btn" href="#q_04" data-value="a">YES</a></li>
+                <li><a class="btn" href="#q_04" data-value="b">NO</a></li>
+            </ul>
+        </div>
+
+        <!-- 質問4 -->
+        <div id="q_04" style="display: none;">
+            <p>質問4:ファンから真面目、誠実、優しいなどと言われることが多い</p>
+            <ul>
+                <li><a class="btn" href="#q_05" data-value="a">YES</a></li>
+                <li><a class="btn" href="#q_05" data-value="b">NO</a></li>
+            </ul>
+        </div>
+
+        <!-- 質問5 -->
+        <div id="q_05" style="display: none;">
+            <p>質問5:不祥事やスキャンダルという言葉を聞いてドキッとする</p>
+            <ul>
+                <li><a class="btn end" data-value="a">YES</a></li>
+                <li><a class="btn end" data-value="b">NO</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- ここから以下回答 -->
+        <!-- 回答の答え1 -->
+        <div id="answer_01" class="result" style="display: none;">
+            <div class="result_theme ">
+                <p>あなたの炎上危険性は</p>
+            </div>
+            <div class="result_type1 ">
+                <h4>100％</h4>
+            </div>
+            <div class="result_discription1">
+                <h2>大変高い</h2>
+                <p>
+                    あなたの炎上危険度はMAXです。今すぐ炎上対策をしましょう。
+                </p>
+            </div>
+            <div class="return-btn">
+                <a class="return" href="index.html">もどる</a>
+            </div>
+        </div>
+        <!-- 回答の答え2 -->
+        <div id="answer_02" style="display: none;">
+            <div class="result_theme ">
+                <p>あなたの炎上危険性は</p>
+            </div>
+            <div class="result_type1 ">
+                <h4>80％</h4>
+            </div>
+            <div class="result_discription1">
+                <h2>高い</h2>
+                <p>
+                    あなたの炎上危険度は高めです。炎上対策を始めましょう。
+                </p>
+            </div>
+            <div class="return-btn">
+                <a class="return" href="index.html">もどる</a>
+            </div>
+        </div>
+    </div>
+    <!-- 回答の答え3 -->
+    <div id="answer_03" style="display: none;">
+        <div class="result_theme ">
+            <p>あなたの炎上危険性は</p>
+        </div>
+        <div class="result_type2 ">
+            <h4>60％</h4>
+        </div>
+        <div class="result_discription2">
+            <h2>普通</h2>
+            <p>
+                あなたの炎上危険度は普通ですが、今後のために炎上対策も視野に入れましょう。
+            </p>
+        </div>
+        <div class="return-btn">
+            <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+    </div>
+    <!-- 回答の答え4 -->
+    <div id="answer_04" style="display: none;">
+        <div class="result_theme ">
+            <p>あなたの炎上危険性は</p>
+        </div>
+        <div class="result_type2 ">
+            <h4>40％</h4>
+        </div>
+        <div class="result_discription2">
+            <h2>低い</h2>
+            <p>
+                あなたの炎上危険度は現状低めですが、もしものために炎上対策について学びましょう。
+            </p>
+        </div>
+        <div class="return-btn">
+            <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+    </div>
+    <!-- 回答の答え5 -->
+    <div id="answer_05" style="display: none;">
+        <div class="result_theme ">
+            <p>あなたの炎上危険性は</p>
+        </div>
+        <div class="result_type0 ">
+            <h4>20％</h4>
+        </div>
+        <div class="result_discription0">
+            <h2>非常に低い</h2>
+            <p>
+                あなたの炎上危険度は現状、非常に低いです。炎上対策について学んでより一層徹底しましょう。
+            </p>
+        </div>
+        <div class="return-btn">
+            <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+    </div>
+    <!-- 回答の答え6 -->
+    <div id="answer_06" style="display: none;">
+        <div class="result_theme ">
+            <p>あなたの炎上危険性は</p>
+        </div>
+        <div class="result_type0 ">
+            <h4>0％</h4>
+        </div>
+        <div class="result_discription0">
+            <h2>優等生</h2>
+            <p>
+                あなたの炎上危険度は現状最低レベルです。炎上対策について体形的に学び、周囲に広めましょう。
+            </p>
+        </div>
+        <div class="return-btn">
+            <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+    </div>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script>
+        //画面切り替え
+        $(function () {
+            $(".btn").on("click", function () {
+                $(this).closest("div").css("display", "none");
+                id = $(this).attr("href");
+                $(id).addClass("fit").fadeIn("slow").show();
+            });
+            //ABカウント
+            var countA;
+            var countB;
+            var box = [];
+            $(".btn").each(function () {
+                $(this).on('click', function () {
+                    var value = $(this).data("value");
+                    box.push(value);
+
+                    countA = box.filter(function (x) {
+                        return x === "a"
+                    }).length;
+                    countB = box.filter(function (y) {
+                        return y === "b"
+                    }).length;
+                });
+            });
+            //結果の出力
+            $('.end').on('click', function () {
+                if (countB == 0) {
+                    $('#answer_01').css("display", ""); //回答1
+                }
+                if (countB == 1) {
+                    $('#answer_02').css("display", ""); //回答2
+                }
+                if (countB == 2) {
+                    $('#answer_03').css("display", ""); //回答3
+                }
+                if (countB == 3) {
+                    $('#answer_04').css("display", ""); //回答4
+                }
+                if (countB == 4) {
+                    $('#answer_05').css("display", ""); //回答5
+                }
+                if (countB == 5) {
+                    $('#answer_06').css("display", ""); //回答6
+                }
+            });
+        });
+    </script>
+</body>
+</html>
