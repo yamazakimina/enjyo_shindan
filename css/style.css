@@ -5,7 +5,6 @@ body {
   padding: 0;
   font-family: 'Reggae One', cursive;
   background-image: url(../img/fire.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -71,7 +70,7 @@ ul {
 .fit {
   position: absolute;
   left: 0px;
-  top: 40px;
+  top: 80px;
   width: 100%;
 }
 
@@ -93,7 +92,6 @@ ul {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-  text-align: center;
   background-color: #10c010;
 }
 
@@ -105,7 +103,6 @@ ul {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-  text-align: center;
   background-color: red;
 }
 
@@ -117,7 +114,6 @@ ul {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-  text-align: center;
   background-color: orange;
 }
 
@@ -164,8 +160,7 @@ ul {
 
 .result_discription0 p {
   font-family: "游ゴシック体", YuGothic;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
   width: 60%;
   padding: 20px;
   text-align: center;
@@ -179,8 +174,7 @@ ul {
 
 .result_discription1 p {
   font-family: "游ゴシック体", YuGothic;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
   width: 60%;
   padding: 20px;
   text-align: center;
@@ -194,8 +188,7 @@ ul {
 
 .result_discription2 p {
   font-family: "游ゴシック体", YuGothic;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
   width: 60%;
   padding: 20px;
   text-align: center;
@@ -222,7 +215,7 @@ ul {
   color: #fff;
   background-color: red;
   width: 100%;
-  padding: 20px 20px;
+  padding: 2%;
   border: 1px solid red;
 }
 
